@@ -1,5 +1,6 @@
 * {
     font-family: "Space Grotesk", sans-serif;
+    scroll-behavior: smooth;
 }
 
 .body {
@@ -37,6 +38,6 @@
 
 
 .body{
-    animation:flip;
+    animation:fadeIn;
     animation-duration: 2s;
 }
