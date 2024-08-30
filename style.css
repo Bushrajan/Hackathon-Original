@@ -1,0 +1,42 @@
+* {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+.body {
+    overflow-x: hidden;
+}
+
+.icon {
+    filter: grayscale(100%);
+}
+
+.icon:hover {
+    filter: grayscale(0%);
+}
+
+.caaards {
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 7px solid black;
+    /* box-shadow: 0px 10px 1px black;  its not working that why I use borders */
+}
+
+/* -------------------------------- */
+
+.ques:hover+.ans {
+    display: block;
+    padding: 10px;
+}
+
+.ans {
+    display: none;
+}
+/* -------------------------------- */
+/* ----------animation---------------------- */
+
+
+.body{
+    animation:flip;
+    animation-duration: 2s;
+}
